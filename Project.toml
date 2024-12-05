@@ -3,6 +3,9 @@ uuid = "5ea97238-1e7b-4d52-b7cd-c1b3d9e8d8c9"
 authors = ["anaIFernst <ana.ferreiraernst@wur.nl> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
 [compat]
 julia = "1.6.7"
 
