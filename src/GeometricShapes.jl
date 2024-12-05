@@ -17,6 +17,6 @@ function AreaDimEllipse(area::T, ar::T = (0.06/0.85)) where {T <: Real}
 end
 function AreaDimEllipse(area::T, ar::W = (0.06/0.85)) where {T <: Quantity, W <: Real} # Unitful version
     length = sqrt(4*area/(π*ar))
-    width = ar*length
+    height = ar*length
     return (length = length, height = height)
 end
