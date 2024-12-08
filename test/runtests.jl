@@ -1,5 +1,6 @@
 using PlantShapes
 using Test
+import Aqua
 
 @testset "PlantShapes.jl" begin
 
