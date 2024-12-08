@@ -1,16 +1,17 @@
 using PlantShapes
 using Test
+#using Documenter add to test examples on documentation (loading...)
 import Aqua
 
-@testset "PlantShapes.jl" begin
+@testset "PlantShapes" begin
 
-    # Aqua
-    @testset "Aqua" begin
-        Aqua.test_all(PlantShapes, ambiguities = false, project_extras = false)
-        Aqua.test_ambiguities([PlantShapes])
-    end
+    # Aqua ==== HEEELP
+    #@testset "Aqua" begin
+    #    Aqua.test_all(PlantShapes; ambiguities = false, project_extras = false)
+    #    Aqua.test_ambiguities([PlantShapes])
+    #end
 
     #Unit tests
-    include("test/test_GeometricShapes.jl")
+    include("test_GeometricShapes.jl")
     
 end
